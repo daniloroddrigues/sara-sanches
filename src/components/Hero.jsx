@@ -37,9 +37,9 @@ export default function Hero() {
             >
               Quero Faturar 10x Mais!
             </a>
-            <img className="w-64 mx-auto md:w-96 mt-5 mb-5" src={imgPayments} alt="Smart" />
+            <img className="w-64 mx-auto md:mx-0 lg:w-96 mt-5 mb-5" src={imgPayments} alt="Smart" />
 
-            <div className="peoples-list flex flex-col justify-items-center md:justify-normal md:flex-auto items-center">
+            <div className="peoples-list flex flex-col justify-items-center items-center md:items-start lg:justify-normal lg:flex-row">
               <div className="img-peoples flex pr-4">
                 <img
                   className="object-cover"
@@ -84,8 +84,8 @@ export default function Hero() {
                   height={35}
                 />
               </div>
-              <div className="star-content mt-3 md:mt-0">
-                <div className="star flex justify-center">
+              <div className="star-content mt-3 lg:mt-0">
+                <div className="star flex justify-center md:justify-normal">
                   <StarIcon />
                   <StarIcon />
                   <StarIcon />

@@ -30,7 +30,7 @@ function App() {
 
           <AboutUs />
 
-          <div className="call-to-action pb-28 px-4 md:px-0">
+          <div className="call-to-action pb-28 px-4 md:px-4 lg:px-0">
             <div className="container mx-auto">
               <div className="about-us-content bg-expert grid grid-cols-1 md:grid-cols-2 md:gap-4">
                 <div className="about-us-content-img"></div>

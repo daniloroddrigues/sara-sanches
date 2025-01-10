@@ -10,7 +10,7 @@ export default function Mentoring() {
           <div className="text-center">
             <p className="about-mentoring">SOBRE A MENTORIA</p>
           </div>
-          <h2 className="text-white text-center pt-4 pb-6 md:pt-0 md:pb-12 md:max-w-lg lg:max-w-4xl mx-auto">
+          <h2 className="text-white text-center pt-4 pb-6 md:pt-4 md:pb-12 md:max-w-lg lg:max-w-4xl mx-auto">
             O que é o <span>MÉTODO CÉU?</span>
           </h2>
 

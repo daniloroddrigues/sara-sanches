@@ -980,8 +980,12 @@ PRICE
 
 @media (min-width: 768px) and (max-width: 991px) {
   .image-hero h1 {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .clients h2 {
+    line-height: 124%;
   }
 
   .btn-primary {
@@ -1024,8 +1028,25 @@ PRICE
     right: -95%;
   }
 
-  .yuri {
-    background-position: 39% center;
+  .about-us h2 {
+    font-size: 20px;
+  }
+
+  .about-us .about-mentoring {
+    font-size: 12px;
+  }
+
+  .about-us-content.bg-expert {
+    background-position: 39% 0;
+  }
+
+  .sara-sanches {
+    background-position: 51% center;
+  }
+
+  .sara-sanches h2 {
+    font-size: 26px;
+    text-transform: uppercase;
   }
 }
 
