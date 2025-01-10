@@ -16,12 +16,19 @@ export default function AbountUs() {
             <div className="about-us-content grid grid-cols-1 gap-4 mb-8">
               <div className="about-us-text">
                 <h3>
-                  <span>FASE 1</span> Conhecimento de dados
+                  <span>FASE 1</span> Dois encontros mensais personalizados para
+                  foco total nos resultados
                 </h3>
                 <p className="mt-6">
-                  Vamos conhecer a história da empresa, as dificuldades,
-                  facilidades, rotina, desafíos diários e traçar um plano de
-                  meta.
+                  Consultores de Vendas: Um encontro exclusivo para a equipe,
+                  com foco no desenvolvimento de habilidades de atendimento e
+                  técnicas de vendas estratégicas. Eles aprenderão como
+                  transformar oportunidades simples em vendas de alta
+                  performance e aumentar o ticket médio de cada cliente. <br />
+                  <br />
+                  Donos de Ótica: Um encontro dedicado a você, com orientações
+                  sobre liderança, gestão de equipes e estratégias para escalar
+                  os resultados da sua ótica.
                 </p>
               </div>
             </div>
@@ -29,11 +36,20 @@ export default function AbountUs() {
             <div className="about-us-content grid grid-cols-1 gap-4 mb-8">
               <div className="about-us-text">
                 <h3>
-                  <span>FASE 2</span> Metas personalizadas
+                  <span>FASE 2</span> Área de Membros Exclusiva
                 </h3>
                 <p className="mt-6">
-                  A empresa terá acesso á metas personalizadas diárias do que
-                  precisa ser feito para acelerar seu faturamento na empresa.
+                  Um portal completo com toda a parte técnica da óptica,
+                  acessível 24/7.
+                  <br />
+                  <br />
+                  Módulos gravados para treinar e capacitar sua equipe em tempo
+                  recorde, sem necessidade de parar a operação da loja.
+                  <br />
+                  <br />
+                  Contratou um novo colaborador? Basta colocá-lo para maratonar
+                  os módulos e garantir que ele esteja pronto para performar
+                  desde o primeiro dia.
                 </p>
               </div>
             </div>
@@ -41,12 +57,15 @@ export default function AbountUs() {
             <div className="about-us-content grid grid-cols-1 gap-4 mb-8">
               <div className="about-us-text">
                 <h3>
-                  <span>FASE 3</span> Acompanhamento exclusivo
+                  <span>FASE 3</span> Suporte Full Time no WhatsApp
                 </h3>
                 <p className="mt-6">
-                  A empresa seguirá com metas diárias disponibilizadas para ele
-                  na nossa plataforma e será acompanhado individualmente a cada
-                  15 dias por ligações telefônicas, video chamada ou whatsapp.
+                  Grupo exclusivo para você e sua equipe, com respostas rápidas
+                  para dúvidas técnicas e estratégias no dia a dia.
+                  <br />
+                  <br />
+                  Consultoria contínua para ajudar a superar desafios pontuais e
+                  aproveitar todas as oportunidades de venda.
                 </p>
               </div>
             </div>
@@ -54,24 +73,19 @@ export default function AbountUs() {
             <div className="about-us-content grid grid-cols-1 gap-4 mb-8">
               <div className="about-us-text">
                 <h3>
-                  <span>FASE 4</span> Encontro ao vivo
+                  <span>FASE 4</span> Resultados Reais
                 </h3>
                 <p className="mt-6">
-                  A empresa terá encontro ao vivo em grupo com a equipe via
-                  zoom, para desbloquear o acesso é necessário caminhar nas
-                  outras etapas acima.
-                </p>
-              </div>
-            </div>
-
-            <div className="about-us-content grid grid-cols-1 gap-4 mb-8">
-              <div className="about-us-text">
-                <h3>
-                  <span>FASE 5</span> Você está pronto
-                </h3>
-                <p className="mt-6">
-                  A empresa está apta a faturar 10x mais. É entregue toda
-                  solução do método céu. Hora de ir para cima!
+                  Transforme sua equipe em consultores de vendas preparados para
+                  encantar clientes e aumentar o faturamento.
+                  <br />
+                  <br />
+                  Crie processos replicáveis e eficientes, garantindo resultados
+                  consistentes e escaláveis.
+                  <br />
+                  <br />
+                  Aumente o ticket médio e posicione sua ótica como referência
+                  em atendimento e vendas.
                 </p>
               </div>
             </div>

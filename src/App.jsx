@@ -37,16 +37,18 @@ function App() {
 
                 <div className="about-us-text">
                   <p>
+                    <b>Por que essa mentoria é ideal para sua ótica?</b>
+                    <br />
+                    <br />
+                    Combinamos estratégias práticas, suporte completo e
+                    materiais técnicos exclusivos para resolver os principais
+                    desafios do setor óptico.
+                    <br />
+                    <br />
                     <b>
-                      Cada fase foi desenhada para ser decisiva no seu Negócio!
+                      Vamos juntos transformar o desempenho da sua ótica e
+                      impulsionar seus resultados!
                     </b>
-                    <br />
-                    <br />
-                    Em todas as fases, o empresário contará com uma equipe
-                    treinada e que visa a empresa completa
-                    <br />
-                    <br />
-                    <b>A seu crescimento é a nossa Missão</b>
                   </p>
                 </div>
               </div>

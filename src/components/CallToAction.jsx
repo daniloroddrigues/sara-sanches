@@ -12,18 +12,16 @@ export default function CallToAction() {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-7">
-          <p className="text-white">WhatsApp: (62) 99211-8711</p>
-          <p className="text-white">E-mail: yuricomercial@hotmail.com</p>
+          <p className="text-white">WhatsApp: (00) 9 0000-0000</p>
+          <p className="text-white">E-mail: email@hotmail.com</p>
         </div>
 
         <p className="text-white pb-7">
-          Av. T-2, N° 238 - QD 98 LT 6 - St. Bueno, Goiânia - GO, 74210-010
+          Address: Av. T-2, N° 238 - QD 98 LT 6 - St. Bueno, Goiânia - GO, 74210-010
         </p>
 
         <a
-          href="https://api.whatsapp.com/send?phone=5562992118711&text=Ol%C3%A1,%20vi
-m%20do%20site%20e%20quero%20de%20saber%20mais%20sobre%20as%20palestr
-as%20e%20programas%20empresariais!"
+          href="#"
           className="btn-default btn-primary"
           target="_blank"
         >
