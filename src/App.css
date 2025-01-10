@@ -667,6 +667,17 @@ PRICE
   padding: 130px 0;
 }
 
+.sara-sanches h2 {
+  font-size: 30px;
+  line-height: 60px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.sara-sanches h2 span { 
+  color: #ffc32c;
+}
+
 .btn-call-to-action {
   background-image: url(assets/imgs/bgs/bg-btn-call-to-action.svg);
   background-size: cover;

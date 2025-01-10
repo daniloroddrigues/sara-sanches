@@ -5,7 +5,7 @@ export default function SaraSanches() {
         <div className="grid grid-cols-1 pt-12 px-4 md:px-0 md:grid-cols-2 gap-1">
           <div></div>
           <div>
-            <h2 className="text-white">Quem é sua Mentora?</h2>
+            <h2 className="text-white">Quem é sua <span><b>Mentora?</b></span></h2>
             <p className="text-white">
               Sara Sanches, começou sua jornada no seguimento ópitco há 18 anos.
               Ela morava no interior de Goiás, conheceu o ramo ópitico e se
@@ -30,6 +30,12 @@ export default function SaraSanches() {
               Sempre com bons retornos e parcerias através das estratégias que
               em alguns momentos representavam 30% do faturamento. Treinava o
               seu time, e sempre tinham excelente entrega de resultado.
+            </p>
+            <br />
+            <p className="text-white">
+              É por isso que hoje eu me dedico a treinar pessoas, trazendo essa
+              experiência. Vender é sobre criar conexão, e quero compartilhar
+              essa visão com vocês.
             </p>
           </div>
         </div>

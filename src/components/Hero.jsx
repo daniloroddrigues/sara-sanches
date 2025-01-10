@@ -1,3 +1,4 @@
+import { motion } from "motion/react";
 import logoAtivacaoEmpresarial from "../assets/imgs/logo-sara-sanches-gl.png";
 import imgPayments from "../assets/imgs/icons/icon-payments.svg";
 import user1 from "../assets/imgs/users/user-1.jpg";
@@ -30,14 +31,20 @@ export default function Hero() {
               Conheça o <b>Método CÉU</b> - A Mentoria que vai acelerar suas
               Vendas em 10x!
             </p>
-            <a
+            <motion.a
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
               href="https://api.whatsapp.com/send?phone=556299937132&text=Ol%C3%A1,%20Quero%20faturar%2010x%20mais"
               className="btn-default btn-primary w70"
               target="_blank"
             >
               Quero Faturar 10x Mais!
-            </a>
-            <img className="w-64 mx-auto md:mx-0 lg:w-96 mt-5 mb-5" src={imgPayments} alt="Smart" />
+            </motion.a>
+            <img
+              className="w-64 mx-auto md:mx-0 lg:w-96 mt-5 mb-5"
+              src={imgPayments}
+              alt="Smart"
+            />
 
             <div className="peoples-list flex flex-col justify-items-center items-center md:items-start lg:justify-normal lg:flex-row">
               <div className="img-peoples flex pr-4">

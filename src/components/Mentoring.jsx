@@ -1,3 +1,4 @@
+import { motion } from "motion/react";
 import iconPocisionamento from "../assets/imgs/icons/icon-posicionamento.png";
 import iconExcelencia from "../assets/imgs/icons/icon-excelencia.png";
 import iconMoney from "../assets/imgs/icons/icon-money-g.png";
@@ -68,13 +69,15 @@ export default function Mentoring() {
           </div>
 
           <div className="text-center py-10 md:py-16">
-            <a
+            <motion.a
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
               href="https://api.whatsapp.com/send?phone=556299937132&text=Ol%C3%A1,%20Quero%20faturar%2010x%20mais"
               className="btn-default btn-primary"
               target="_blank"
             >
               Quero Faturar 10x Mais!
-            </a>
+            </motion.a>
           </div>
         </div>
       </div>

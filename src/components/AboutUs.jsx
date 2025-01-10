@@ -1,3 +1,5 @@
+import { motion } from "motion/react";
+
 export default function AbountUs() {
   return (
     <div className="about-us pt-8 px-4 md:px-0 md:py-16">
@@ -91,7 +93,9 @@ export default function AbountUs() {
             </div>
 
             <div className="col-span-1 py-12 pb-8 sm:pb-0">
-              <a
+              <motion.a
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
                 href="https://api.whatsapp.com/send?phone=5562992118711&text=Ol%C3%A1,%20vi
 m%20do%20site%20e%20quero%20de%20saber%20mais%20sobre%20as%20palestr
 as%20e%20programas%20empresariais!"
@@ -99,7 +103,7 @@ as%20e%20programas%20empresariais!"
                 target="_blank"
               >
                 Quero Transformar Minha Empresa!
-              </a>
+              </motion.a>
             </div>
           </div>
         </div>
