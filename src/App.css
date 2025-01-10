@@ -487,12 +487,11 @@ h2 {
 }
 
 .clients {
-  background: #ffffff;
+  background: #000000;
 }
 
 .clients h2 {
   font-size: 24px;
-  color: #040404;
   letter-spacing: 0;
   text-transform: uppercase;
 }
@@ -533,7 +532,7 @@ h2 {
   border-image: linear-gradient(
       to right,
       transparent 0%,
-      #ee3a40 50%,
+      #e1af35 50%,
       transparent 100%
     )
     1;
@@ -579,6 +578,20 @@ h2 {
 
 .container-call-to-action .text-center.mx-auto {
   max-width: 614px;
+}
+
+/**
+CONTAINER METHODOLOGY STRUCTURE
+**/
+.methodology-structure h2 {
+  font-size: 27px;
+  line-height: 100%;
+  border-bottom: 1px solid #454545;
+  margin-bottom: 30px;
+}
+
+.methodology-structure h2 span {
+  color: #ffcc2d;
 }
 
 /**
@@ -648,10 +661,11 @@ PRICE
   margin-top: 25px;
 }
 
-.yuri {
-  background-image: url(assets/imgs/bgs/bg-yuri.jpg);
+.sara-sanches {
+  background-image: url(assets/imgs/bgs/sarasanches.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 80% 0;
   padding: 130px 0;
 }
 
@@ -756,7 +770,7 @@ PRICE
 }
 
 .footer {
-  border-top: 1px solid #751025;
+  border-top: 1px solid #ffbf00;
 }
 
 .footer p {

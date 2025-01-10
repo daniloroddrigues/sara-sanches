@@ -6,8 +6,8 @@ export default function Footer() {
           <div className="mr-2">
             <a
               className="cursor-pointer"
-              href="https://www.instagram.com/yurit0r/"
-              aria-label="Rede Social Instagram Yuri Tor"
+              href="https://www.instagram.com/asarasanches/"
+              aria-label="Rede Social Instagram Sara Sanches"
               target="_blank"
             >
               <svg
@@ -27,8 +27,8 @@ export default function Footer() {
           <div>
             <a
               className="cursor-pointer"
-              href="https://www.facebook.com/yurit0r"
-              aria-label="Rede Social Facebook Yuri Tor"
+              href="https://www.facebook.com/asarasanches"
+              aria-label="Rede Social Facebook Sara Sanches"
               target="_blank"
             >
               <svg
@@ -48,7 +48,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="text-center text-white pb-10">
-        © 2024 Ativação Empresarial. Todos os Direitos Reservados.
+        © 2025 MÉTODO CÉU. Todos os Direitos Reservados.
       </div>
     </footer>
   );

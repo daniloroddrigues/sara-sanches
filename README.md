@@ -1,7 +1,11 @@
 # Ativação Empresarial
 
-Projeto ativação empresarial Yuri TOR
+Projeto Sara Sanches MÉTODO CÉU
 
 ## Start Projetct
 
-```npm run dev```
+`npm run dev`
+
+## React Vite
+
+`npm create vite@latest my-vue-app -- --template react`

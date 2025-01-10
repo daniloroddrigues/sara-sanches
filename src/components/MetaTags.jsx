@@ -16,8 +16,8 @@ export default function MetaTags() {
         name="keywords"
         content="treinamento empresarial, metodologia empresarial, método céu, venda para óticas"
       />
-      <meta name="author" content="Yuri Tor" />
-      <meta property="og:title" content="Ativação Empresarial" />
+      <meta name="author" content="Sara Sanches" />
+      <meta property="og:title" content="Método CÉU" />
       <meta
         property="og:description"
         content="Descubra o que os gigantes do Mercado Ótica fazem para entregar valor e faturar mais!"

@@ -1,7 +1,8 @@
 import Slider from "react-slick";
 
 import YoutubeEmbed from "./YoutubeEmbed";
-import logoClientFull from "../assets/imgs/clients/clientes-full.jpg";
+import logoImpactOtica from "../assets/imgs/clients/client-impacto-otica.jpg";
+import logoLionOtica from "../assets/imgs/clients/client-lion-oticas-1.jpg";
 
 export default function Clients() {
   const settings = {
@@ -46,65 +47,45 @@ export default function Clients() {
   return (
     <div className="clients divider px-4 py-16 md:px-0 md:pb-20">
       <div className="container mx-auto">
+        <div className="text-center mb-8">
+          <p className="about-mentoring">DEPOIMENTOS</p>
+        </div>
+        <h2 className="text-white uppercase text-center pb-6 md:pb-12 md:max-w-lg lg:max-w-4xl mx-auto">
+          O que dizem nossos empresários sobre o{" "}
+          <span className="text-gold">Método CÉU</span>
+        </h2>
+
         <Slider
           className="main-slider md:max-w-2xl md:mx-auto lg:max-w-full"
           {...settings}
         >
           <div className="img-slider">
-            <YoutubeEmbed
-              embedId={"O7oxJfStDdI"}
-              title={"CEO Wenisteen W2sat"}
-            />
+            <YoutubeEmbed embedId={"yIeQ9quCPfU"} title={"Método CÉU 01"} />
           </div>
           <div className="img-slider">
-            <YoutubeEmbed
-              embedId={"AmG6UxTBmYk"}
-              title={"Doutor Óculos - Yuri."}
-            />
+            <YoutubeEmbed embedId={"e0NwnpmDP-k"} title={"Método CÉU 02"} />
           </div>
           <div className="img-slider">
-            <YoutubeEmbed
-              embedId={"W_Yn0fN22mU"}
-              title={"Depoimento Andre W2sat"}
-            />
-          </div>
-          <div className="img-slider">
-            <YoutubeEmbed
-              embedId={"VhdAcn9Padk"}
-              title={"Depoimento Stefane Albuquerque W2sat"}
-            />
-          </div>
-          <div className="img-slider">
-            <YoutubeEmbed
-              embedId={"C4IY_tSOIxc"}
-              title={"Ativação Empresarial"}
-            />
-          </div>
-          <div className="img-slider">
-            <YoutubeEmbed embedId={"5lgwrzqc_Q8"} title={"Depoimento W2sat"} />
-          </div>
-
-          <div className="img-slider">
-            <YoutubeEmbed
-              embedId={"3MWIa5ls8GM"}
-              title={"Depoimento Giovana w2sat"}
-            />
-          </div>
-          <div className="img-slider">
-            <YoutubeEmbed embedId={"d3D--BvO0SQ"} title={"Doutor Óculos."} />
+            <YoutubeEmbed embedId={"vdAr4LDqUXY"} title={"Método CÉU 03"} />
           </div>
         </Slider>
 
-        <h2 className="text-center mt-16">
-          Empresas que confiaram na Ativação Empresarial
+        <h2 className="text-center text-white mt-16">
+          Empresas que <span className="text-gold-dark">confiaram na Nossa MENTORIA</span>
         </h2>
 
-        <div className="grid grid-cols-1 mx-auto md:max-w-2xl md:grid-cols-1 py-10">
+        <div className="grid grid-cols-1 justify-items-center mx-auto md:max-w-2xl md:grid-cols-2 py-10">
           <img
-            src={logoClientFull}
-            width={1920}
-            height={1080}
-            alt="Clientes Impactados pela Ativação Empresarial"
+            src={logoImpactOtica}
+            width={135}
+            height={135}
+            alt="Impact Ótica"
+          />
+          <img
+            src={logoLionOtica}
+            width={135}
+            height={135}
+            alt="Lion Ótica"
           />
         </div>
       </div>
