@@ -2,7 +2,7 @@ export default function SaraSanches() {
   return (
     <div className="sara-sanches">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 px-4 md:px-0 md:grid-cols-2 gap-1">
+        <div className="grid grid-cols-1 pt-12 px-4 md:px-0 md:grid-cols-2 gap-1">
           <div></div>
           <div>
             <h2 className="text-white">Quem é sua Mentora?</h2>
@@ -30,14 +30,6 @@ export default function SaraSanches() {
               Sempre com bons retornos e parcerias através das estratégias que
               em alguns momentos representavam 30% do faturamento. Treinava o
               seu time, e sempre tinham excelente entrega de resultado.
-            </p>
-            <br />
-
-            <p className="text-white">
-              <b>
-                Esposo da Dayane Almeida e tutor das Pets Safira (Cofap) e Zara
-                (Lulu da Pomerânia)
-              </b>
             </p>
           </div>
         </div>

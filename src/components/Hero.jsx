@@ -37,9 +37,9 @@ export default function Hero() {
             >
               Quero Faturar 10x Mais!
             </a>
-            <img className="w-96 mt-5 mb-5" src={imgPayments} alt="Smart" />
+            <img className="w-64 mx-auto md:w-96 mt-5 mb-5" src={imgPayments} alt="Smart" />
 
-            <div className="peoples-list flex items-center">
+            <div className="peoples-list flex flex-col justify-items-center md:justify-normal md:flex-auto items-center">
               <div className="img-peoples flex pr-4">
                 <img
                   className="object-cover"
@@ -84,15 +84,15 @@ export default function Hero() {
                   height={35}
                 />
               </div>
-              <div className="star-content">
-                <div className="star flex">
+              <div className="star-content mt-3 md:mt-0">
+                <div className="star flex justify-center">
                   <StarIcon />
                   <StarIcon />
                   <StarIcon />
                   <StarIcon />
                   <StarIcon />
                 </div>
-                <div className="start-text">
+                <div className="start-text mt-3 md:mt-0">
                   Aprovado por <span>+de 100 empresas Óticas</span>
                 </div>
               </div>

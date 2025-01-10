@@ -76,6 +76,7 @@ export default function Clients() {
 
         <div className="grid grid-cols-1 justify-items-center mx-auto md:max-w-2xl md:grid-cols-2 py-10">
           <img
+          className="mb-4 md:mb-0"
             src={logoImpactOtica}
             width={135}
             height={135}

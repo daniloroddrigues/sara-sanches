@@ -2,7 +2,7 @@ export default function AbountUs() {
   return (
     <div className="about-us pt-8 px-4 md:px-0 md:py-16">
       <div className="container md:max-w-2xl lg:max-w-4xl mx-auto">
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-1 md:grid-cols-3">
           <div className="col-span-1">
             <div className="text-left mb-3">
               <p className="about-mentoring">COMO FUNCIONA A MENTORIA</p>

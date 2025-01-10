@@ -233,7 +233,6 @@ h2 {
   position: absolute;
   top: 0;
   left: 0;
-  filter: invert(1);
 }
 
 .gallery-slider .slick-next:before,
@@ -243,7 +242,6 @@ h2 {
   position: absolute;
   top: 0;
   left: 0;
-  filter: invert(1);
 }
 
 .main-slider .img-slider h3 {
@@ -896,7 +894,16 @@ PRICE
   }
 
   .about-us h2 {
-    font-size: 30px;
+    font-size: 22px;
+  }
+
+  .about-us-content {
+    padding: 46px;
+  }
+
+  .about-us-content:before {
+    right: -77%;
+    top: 75%;
   }
 
   .btn-primary {
@@ -943,8 +950,8 @@ PRICE
     height: 560px;
   }
 
-  .yuri {
-    background-image: url(assets/imgs/bgs/bg-yuri-mobile.jpg);
+  .sara-sanches {
+    background-image: url(assets/imgs/bgs/bg-sara-sanches-mobile.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 227px 0 50px 0;

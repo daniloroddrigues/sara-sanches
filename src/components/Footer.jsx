@@ -47,7 +47,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="text-center text-white pb-10">
+      <div className="text-center text-white text-sm md:text-base pb-10">
         © 2025 MÉTODO CÉU. Todos os Direitos Reservados.
       </div>
     </footer>
